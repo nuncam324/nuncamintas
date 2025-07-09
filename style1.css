@@ -4,9 +4,55 @@ body{
     border-color: #c7c7c7;
     
 }
+@media(max-width:600px){
+
+ul li{
+   display: flex;
+
+}
+
+h1{
+     font-size: 17rem;
+}
+
+#lista{
+      display: flex;
+      padding: 0;
+      margin: 0;
+}
+
+#titulo,#historia,#download{
+    display:none;
+}
+
+#conteudo{
+    display:inline-block;
+    padding-bottom: 150px;
+
+  }
+  #texto{
+    display:inline-block;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    margin: 0%;
+    text-align: center;
+    position: relative;
+     display: flex;
+  }
+  #ponto{
+    display:inline;
+     opacity:1;
+     margin-left:220px;
+  }
+}
 a{
     color: rgb(204, 204, 204);
     text-decoration: none;
+}
+#ponto{
+    opacity: 0;
 }
 a:hover{
     color:#fbff00;
