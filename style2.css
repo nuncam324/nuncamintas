@@ -1,0 +1,102 @@
+body{
+    border: 10px;
+    border-style:ridge;
+    border-color: #c7c7c7;
+}
+a{
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+}
+a:hover{
+    color:#fbff00;
+}
+ul{
+  margin: auto;
+}
+ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+    
+}
+li{
+    color: #fbff00;
+    font-size: 25px;
+    vertical-align: middle;
+  
+}
+h1 {
+     color: #fbff00;
+     text-align: center;
+     font-size: 44px;
+}
+button {
+     color: #fbff00;
+     font-size: 20px;
+     background-color: #000000;
+     display: flex;
+     margin: 0 auto;
+     size: 10px;
+     padding: 10px 60px;
+}
+button:hover {
+     color: #fff27a;
+     background-color: rgb(54, 54, 54);
+     
+}
+#titulo {
+    font-weight: bold;
+    
+}
+#historia{
+    color: #fbff00;
+    font-size: 25px;
+    margin-right: 200px;
+    margin-left: 400px;
+}
+#download{
+    color: #fbff00;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 1px;
+}
+#info {
+    float:right;
+    margin-right: 10px;
+     width:90px;
+    height:auto;
+}
+#autor {
+    margin-left: 10px;
+}
+#livro {
+    margin-left: 10px;
+}
+
+footer{
+    background-color: #000000;
+}
+#infofo{
+    padding-left: 94px;
+     display: flex;
+}
+
+#menu{
+     background-color: #000000;
+
+}
+#e{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#story, #link{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#es{
+    background-color: #1f1f1f;
+   
+}
+

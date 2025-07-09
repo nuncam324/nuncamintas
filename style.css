@@ -1,0 +1,226 @@
+body{
+    border: 10px;
+    border-style:ridge;
+    border-color: #c7c7c7;   
+     
+}
+@media(max-width:600px){
+
+ul li{
+   display: flex;
+
+}
+
+h1{
+     font-size: 17rem;
+}
+
+#lista{
+      display: flex;
+      padding: 0;
+      margin: 0;
+}
+
+#titulo,#historia,#download{
+    display:inline-table;
+    margin-left:10px;
+    margin-right: 10px;
+    padding:10px;
+    font-size: 16px;
+}
+#menu{
+    flex-direction:row; 
+    padding: 2rem;
+
+}
+ #menu li {
+    display:inline-block;
+    padding: 5px ;
+  }
+a{
+    display:inline-block;
+    padding: 5px ;
+  }
+#conteudo{
+    display:inline-block;
+    padding-bottom: 150px;
+
+  }
+  #texto{
+    display:inline-block;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    margin: 0%;
+    text-align: center;
+    position: relative;
+     display: flex;
+  }
+}
+a{
+    color: rgb(204, 204, 204);
+     text-decoration:none;
+}
+a:hover{
+    color:#fbff00;
+}
+ul{
+   
+   margin: auto;
+}
+
+ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+    
+}
+li{
+    color: #fbff00;
+    font-size: 25px;
+    vertical-align: middle;
+}
+h1 {
+     color: #fbff00;
+     text-align: center;
+     font-size: 44px;
+}
+button {
+     color: #fbff00;
+     font-size: 20px;
+     display: flex;
+     margin: 0 auto;
+     size: 10px;
+     padding: 10px 60px;
+}
+button:hover {
+     color: #fff27a;
+      background-color: rgb(54, 54, 54);
+     
+}
+#titulo {
+    font-weight: bold;
+   
+}
+
+#historia{
+    color: #fbff00;
+    font-size: 25px;
+    margin-right: 200px;
+    margin-left: 400px;
+}
+#download{
+    color: #fbff00;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 1px;
+}
+#info {
+    float:right;
+    margin-right: 10px;
+     width: 90px;
+    height: auto;
+}
+#autor {
+    margin-left: 10px;
+}
+#livro {
+    margin-left: 10px;
+}
+
+footer{
+    background-color: #000000;
+}
+#infofo{
+    padding-left: 94px;
+
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-align: center;
+}
+#e{
+    justify-content: center;
+    display:flex;
+}
+#menu{
+    background-color: #000000;
+
+}
+
+#lista{
+    text-align: center;
+    padding: 0 30px;
+    display: inline-block;
+
+}
+#container1{
+     background-image: url(Projeto\ de\ Aptidão\ Profissional.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+      background-position:top center;
+       background-size: 100%; 
+}
+#per{
+    padding: 30px;
+}
+#lista,#per{
+
+       margin: 10px;
+  
+
+}
+#nomes1, #nomes2, #nomes3, #nomes4, #nomes5 {
+
+     border-style: solid;
+       margin: 10px;
+       background-color: #000000;
+         position: relative;
+}
+
+
+#imagem,#texto{
+  top: 0;
+  left: 0;
+}
+#conteudo{
+    position:relative;
+    display: inline-block;
+     width: 200px;
+  height: 200px;
+  margin:3px;
+}
+
+#texto{
+     display: none;
+    size:0%;
+}
+
+progress{
+    width:300px; 
+    height:30px;
+}
+
+#nomes1 #texto , #nomes2 #texto, #nomes3#texto, #nomes4 #texto, #nomes5 #texto{
+     display: none;
+}
+#nomes1:hover #texto , #nomes2:hover #texto, #nomes3:hover #texto, #nomes4:hover #texto, #nomes5:hover #texto{
+    opacity:1;
+    margin: 0%;
+    display: inline;
+    display: flex;
+  gap: 20px;
+    
+}
+#nomes1:hover #imagem , #nomes2:hover #imagem, #nomes3:hover #imagem, #nomes4:hover #imagem, #nomes5:hover #imagem{
+    opacity:0;
+    margin-left: 20%;
+    margin-right:20px;
+    display: none;
+}
+
+#nomes1:hover{
+   margin-right: 30%;
+}
